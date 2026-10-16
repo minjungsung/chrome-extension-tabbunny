@@ -1,0 +1,40 @@
+{
+  "name": "TabBunny",
+  "slug": "tabbunny",
+  "version": "1.1.0",
+  "type": "Actual Chrome extension UI, recorded as step-by-step frames",
+  "fixture": "Disposable profile; fictional example URLs and article text",
+  "fastForward": null,
+  "steps": [
+    {
+      "file": "step-01.png",
+      "title": "Choose the tabs to keep",
+      "caption": "Select web tabs in your current window. Click a title to switch to it."
+    },
+    {
+      "file": "step-02.png",
+      "title": "Give the burrow a name",
+      "caption": "This demo keeps the tabs open. Closing them after saving is optional."
+    },
+    {
+      "file": "step-03.png",
+      "title": "Saved safely on this device",
+      "caption": "TabBunny saves the selected links and removes duplicate URLs."
+    },
+    {
+      "file": "step-04.png",
+      "title": "See the saved links",
+      "caption": "Expand a burrow to inspect its links before reopening it."
+    },
+    {
+      "file": "step-05.png",
+      "title": "Hop back into the project",
+      "caption": "Open burrow restores its saved links in a new window."
+    },
+    {
+      "file": "step-06.png",
+      "title": "Keep a portable backup",
+      "caption": "Export backup downloads JSON. Import backup restores valid collections."
+    }
+  ]
+}

@@ -37,3 +37,9 @@ Report reproducible bugs through this repository's issue tracker. Remove private
 ## License
 
 MIT.
+
+## See it in action
+
+![TabBunny demo](store/demo/walkthrough.gif)
+
+[Watch the MP4](store/demo/walkthrough.mp4) · [Read the step-by-step guide](store/demo/README.md)
