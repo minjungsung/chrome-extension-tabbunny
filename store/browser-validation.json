@@ -1,0 +1,14 @@
+{
+  "extension": "tabshelf",
+  "validated": true,
+  "popup": {
+    "height": 600,
+    "width": 400,
+    "title": "TabShelf"
+  },
+  "checks": [
+    "save actual tabs",
+    "restore new window"
+  ],
+  "fixture": "Fictional local example domains and data; isolated browser profile"
+}
