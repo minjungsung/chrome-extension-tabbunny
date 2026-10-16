@@ -1,26 +1,29 @@
 # TabBunny
 
-Your tabs deserve a cozy little home.
+Save tonight. Hop back tomorrow.
 
-TabBunny turns a crowded browser window into saved bunny burrows you can return to later. Choose the tabs you want, name the burrow, and keep your next task ready.
+Save the web links in your current window with one click. Your bunny keeps them ready to reopen later; no project naming or tab selection is required.
+
+## See it work
+
+![Actual Chrome walkthrough](store/demo/walkthrough.gif)
+
+[Video and steps](store/demo/README.md). Fictional demo data; FocusPet completion is accelerated and disclosed.
 
 ## Features
 
-- Search and jump to web tabs in the current window.
-- Save selected tabs into named burrows, with duplicate links removed.
-- Optionally close selected tabs after they have been saved successfully.
-- Browse saved links, rename burrows, and restore them in a new window.
-- Restore pinned state and export or import JSON backups.
+- Save this window with an automatic date label; current tabs stay open.
+- Resume the latest saved links in a new window.
+- Repeated identical quick saves refresh the latest snapshot.
+- Optionally organize selected tabs into named projects and export backups.
 
 ## Limits
 
-Stores up to 100 burrows with 300 web tabs each. HTTP and HTTPS pages only; internal browser pages, local files, and URLs with embedded credentials are skipped. TabBunny keeps current tabs open unless you explicitly choose to close them. Saved links do not preserve form edits, cookies, page scroll positions, or login state. Closing tabs can lose unsaved page input.
+Stores up to 100 burrows with 300 web tabs each. HTTP and HTTPS pages only; internal browser pages, local files, and URLs with embedded credentials are skipped. TabBunny keeps current tabs open unless you explicitly choose to close them. Saved links do not preserve form edits, cookies, page scroll positions, or login state. Closing tabs can lose unsaved page input. At 100 collections, new quick saves retire the oldest quick snapshot; named projects are preserved. Renaming a quick snapshot makes it a named project.
 
 ## Development
 
-Open `chrome://extensions`, enable Developer mode, choose **Load unpacked**, and select `extension/`. All runtime assets are packaged locally.
-
-Run `npm test` for logic tests. Run `npm run package` to validate and create an upload ZIP in `dist/`. No build step or runtime package dependencies are required.
+Load `extension/` unpacked in Chrome Developer mode. Run `npm test` and `npm run package`. There is no runtime dependency or build step.
 
 ## Privacy
 
@@ -28,18 +31,12 @@ Local collections contain names, page URLs and titles, pinned flags, and creatio
 
 `tabs` reads the current window's URLs, titles, and pinned state when you use the app. `storage` saves your burrows on this device. No website content is read.
 
-See [PRIVACY.md](PRIVACY.md). No developer servers, advertising, or analytics.
+See [PRIVACY.md](PRIVACY.md). No accounts, ads or analytics.
 
-## Support
+## Product evidence
 
-Report reproducible bugs through this repository's issue tracker. Remove private information first.
+[Market analysis and validation plan](docs/market-analysis.md). Adoption remains unvalidated.
 
-## License
+## Support and license
 
-MIT.
-
-## See it in action
-
-![TabBunny demo](store/demo/walkthrough.gif)
-
-[Watch the MP4](store/demo/walkthrough.mp4) · [Read the step-by-step guide](store/demo/README.md)
+Use the repository issue tracker; remove private information. MIT.

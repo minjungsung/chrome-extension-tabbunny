@@ -1,40 +1,35 @@
 {
   "name": "TabBunny",
   "slug": "tabbunny",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "type": "Actual Chrome extension UI, recorded as step-by-step frames",
   "fixture": "Disposable profile; fictional example URLs and article text",
   "fastForward": null,
   "steps": [
     {
       "file": "step-01.png",
-      "title": "Choose the tabs to keep",
-      "caption": "Select web tabs in your current window. Click a title to switch to it."
+      "title": "Keep your place in one click",
+      "caption": "No naming or selecting. Save this window keeps your web links; current tabs stay open."
     },
     {
       "file": "step-02.png",
-      "title": "Give the burrow a name",
-      "caption": "This demo keeps the tabs open. Closing them after saving is optional."
+      "title": "Your bunny kept the links",
+      "caption": "The date is filled in for you. No setup or account needed."
     },
     {
       "file": "step-03.png",
-      "title": "Saved safely on this device",
-      "caption": "TabBunny saves the selected links and removes duplicate URLs."
+      "title": "Same window? No duplicate pile",
+      "caption": "Saving the same links refreshes the latest snapshot."
     },
     {
       "file": "step-04.png",
-      "title": "See the saved links",
-      "caption": "Expand a burrow to inspect its links before reopening it."
+      "title": "Tomorrow: pick up where you left off",
+      "caption": "Resume opens the saved links in a new window. Page edits and login state are not snapshots."
     },
     {
       "file": "step-05.png",
-      "title": "Hop back into the project",
-      "caption": "Open burrow restores its saved links in a new window."
-    },
-    {
-      "file": "step-06.png",
-      "title": "Keep a portable backup",
-      "caption": "Export backup downloads JSON. Import backup restores valid collections."
+      "title": "Organize only when you need to",
+      "caption": "Named projects, selected tabs and backup controls are optional."
     }
   ]
 }

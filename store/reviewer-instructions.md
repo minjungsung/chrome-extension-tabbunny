@@ -1,3 +1,5 @@
 # Reviewer instructions
 
-Open web pages, click TabBunny, select tabs, enter a name, and choose Save selected tabs. Switch to Saved burrows and open one. JSON backup import accepts TabBunny and earlier TabShelf backups. No login is needed.
+Version 1.2.0. No account required.
+
+Open web pages, open TabBunny, and click Save this window. Confirm the latest save appears. Save again: no duplicate is added. Click Resume: the links open in a new window. Optional named collections and backup controls are in Organize projects.

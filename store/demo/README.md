@@ -1,29 +1,11 @@
-# TabBunny walkthrough
+# TabBunny guided demo
 
-Watch the [MP4 demo](walkthrough.mp4) or the animated walkthrough below. These are guided captures of the actual Chrome extension UI, using a disposable profile and fictional example URLs. The video advances between action frames; it is not continuous screen recording.
+Version 1.2.0. Actual Chrome extension actions captured as guided frames, not a continuous screen recording. Fictional example domains and article text in an isolated disposable profile.
 
-![TabBunny animated walkthrough](walkthrough.gif)
+[Watch MP4](walkthrough.mp4) · [Animated GIF](walkthrough.gif) · [Browser player](index.html)
 
-## 1. Choose the tabs to keep
-
-Select web tabs in your current window. Click a title to switch to it.
-
-## 2. Give the burrow a name
-
-This demo keeps the tabs open. Closing them after saving is optional.
-
-## 3. Saved safely on this device
-
-TabBunny saves the selected links and removes duplicate URLs.
-
-## 4. See the saved links
-
-Expand a burrow to inspect its links before reopening it.
-
-## 5. Hop back into the project
-
-Open burrow restores its saved links in a new window.
-
-## 6. Keep a portable backup
-
-Export backup downloads JSON. Import backup restores valid collections.
+1. **Keep your place in one click** — No naming or selecting. Save this window keeps your web links; current tabs stay open.
+2. **Your bunny kept the links** — The date is filled in for you. No setup or account needed.
+3. **Same window? No duplicate pile** — Saving the same links refreshes the latest snapshot.
+4. **Tomorrow: pick up where you left off** — Resume opens the saved links in a new window. Page edits and login state are not snapshots.
+5. **Organize only when you need to** — Named projects, selected tabs and backup controls are optional.

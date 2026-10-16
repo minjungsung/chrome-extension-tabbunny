@@ -1,15 +1,13 @@
 {
   "extension": "tabbunny",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "validated": true,
-  "popup": {
-    "height": 600,
-    "width": 400,
-    "title": "TabBunny"
-  },
   "checks": [
-    "save selected actual tabs",
-    "restore new window"
+    "one-click current window save",
+    "identical quick save refresh",
+    "restore links in new window",
+    "optional organizer"
   ],
-  "fixture": "Isolated browser with fictional example domains and local data"
+  "fixture": "Disposable Chrome profile; fictional example domains; no account required",
+  "limitations": "Functional checks do not measure user demand or retention. Focus completion was accelerated as disclosed in the demo."
 }
