@@ -14,7 +14,7 @@ out.parent.mkdir(exist_ok=True)
 with ZipFile(out,'w',ZIP_DEFLATED) as z:
  for p in sorted(source.rglob('*')):
   if p.is_file() and not p.name.startswith('.'):
-   assert p.suffix in {'.json','.html','.css','.js','.png'}
+   assert p.suffix in {'.json','.html','.css','.js','.png','.svg'}
    z.write(p,p.relative_to(source))
 with ZipFile(out) as z: assert z.testzip() is None
 print(f"Validated {m['name']}; created {out.relative_to(ROOT)} ({out.stat().st_size} bytes)")

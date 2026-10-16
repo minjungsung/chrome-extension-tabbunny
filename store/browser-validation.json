@@ -1,14 +1,15 @@
 {
-  "extension": "tabshelf",
+  "extension": "tabbunny",
+  "version": "1.1.0",
   "validated": true,
   "popup": {
     "height": 600,
     "width": 400,
-    "title": "TabShelf"
+    "title": "TabBunny"
   },
   "checks": [
-    "save actual tabs",
+    "save selected actual tabs",
     "restore new window"
   ],
-  "fixture": "Fictional local example domains and data; isolated browser profile"
+  "fixture": "Isolated browser with fictional example domains and local data"
 }

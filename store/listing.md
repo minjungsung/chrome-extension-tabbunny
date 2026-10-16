@@ -1,8 +1,8 @@
-# TabShelf
+# TabBunny
 
 ## Category
 
-Productivity
+Workflow & Planning
 
 ## Language
 
@@ -10,18 +10,22 @@ English
 
 ## Description
 
-TabShelf helps you pick up a project without rebuilding your browser window. Save a named collection, search by title or URL, and restore it in a new window.
+Your tabs deserve a cozy little home.
+
+TabBunny turns a crowded browser window into saved bunny burrows you can return to later. Choose the tabs you want, name the burrow, and keep your next task ready.
 
 FEATURES
-- Save up to 100 tab collections, with up to 300 web tabs per collection.
-- Deduplicate repeated URLs and restore pinned tabs.
-- Search collection names, page titles, and saved links.
-- Export and import portable JSON backups.
-- Keep saved collections locally; no account or cloud service.
+- Search and jump to web tabs in the current window.
+- Save selected tabs into named burrows, with duplicate links removed.
+- Optionally close selected tabs after they have been saved successfully.
+- Browse saved links, rename burrows, and restore them in a new window.
+- Restore pinned state and export or import JSON backups.
 
-TabShelf saves HTTP and HTTPS tabs from the current window. It keeps your current tabs open. Restoring links does not restore cookies, form input, browser history, or logged-in sessions. Internal browser pages and local files are skipped.
+GOOD TO KNOW
+Stores up to 100 burrows with 300 web tabs each. HTTP and HTTPS pages only; internal browser pages, local files, and URLs with embedded credentials are skipped. TabBunny keeps current tabs open unless you explicitly choose to close them. Saved links do not preserve form edits, cookies, page scroll positions, or login state. Closing tabs can lose unsaved page input.
 
-PRIVACY
-Tab access is used when you save a window. Saved page titles and URLs stay in local extension storage. No analytics, advertising, or developer servers.
+PRIVATE BY DEFAULT
+No account, analytics, advertising, cloud synchronization, or developer servers. Processing happens on your device. Saved data uses local extension storage. Exported files may contain private information; keep them somewhere you trust.
 
-Open the extension, name a collection, and choose Save tabs. Choose Open window to return to it.
+SUPPORT
+Report bugs or suggestions through the support link. Please remove private URLs, notes, and credentials from reports.

@@ -1,22 +1,21 @@
-# TabShelf privacy policy
+# TabBunny privacy policy
 
 Effective date: 2026-10-16.
 
-## Data and processing
+## Local data and processing
 
-Saved collection names, page URLs, page titles, pinned flags, and timestamps.
+Local collections contain names, page URLs and titles, pinned flags, and creation timestamps.
 
-All processing happens within the extension on your device. We do not collect, receive, transmit, sell, or share personal data. The extension has no analytics, advertising, remote executable code, developer server, or account requirement.
+Processing happens on your device. The developer does not receive, sell, or transmit this data. The extension has no developer servers, accounts, cloud sync, analytics, advertising, or remote executable code. Local processing can involve sensitive text or URLs supplied by you; the store disclosures describe the data handled by the extension even though it is not sent to the developer.
 
 ## Permissions
 
-- `tabs`: read the URLs and titles in the current window when you save a collection and restore its pinned tabs.
-- `storage`: persist collections on this device.
+`tabs` reads the current window's URLs, titles, and pinned state when you use the app. `storage` saves your burrows on this device. No website content is read.
 
 ## Retention and control
 
-Local data remains until you remove it through the app, clear extension data, or uninstall the extension. Export and delete controls are available for saved collections and notes. Exported files are controlled by you and may contain private information. Chrome and the Web Store have separate Google privacy policies.
+Local saved data remains until you delete it, clear extension data, or uninstall the extension. Exported files and clipboard contents are controlled by you. The library and collection tools provide delete and backup controls. LinkLoom keeps no persistent link history. FocusPet retains up to 90 days of daily counts and a lifetime companion total. Chrome and its Web Store have separate Google privacy policies.
 
 ## Contact
 
-Use the repository issue tracker or the Chrome Web Store support contact for privacy questions. Do not post private data in public issues.
+Use this repository's issue tracker or the Chrome Web Store support contact for privacy questions. Do not post private content in public issues.
