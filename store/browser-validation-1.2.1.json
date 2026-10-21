@@ -1,0 +1,10 @@
+{
+  "version": "1.2.1",
+  "date": "2026-10-21",
+  "core_workflow": "passed",
+  "review_notice": "eligibility and dismissal passed",
+  "layout": "400x600; no horizontal overflow; footer visible",
+  "fixture": "Disposable, unauthenticated Chrome profile; fictional local article",
+  "permission_limit": "QuoteHarbor and LinkLoom test copies add only local-fixture host permission because CDP does not grant toolbar activeTab. Production manifests retain original permissions.",
+  "focus_completion": "Accelerated only in fixture"
+}

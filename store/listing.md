@@ -1,18 +1,18 @@
 # TabBunny
 
-## Category
+## Store fields
 
-Workflow & Planning
-
-## Language
-
-English
+- Title: TabBunny: Save & Restore Tabs
+- Summary: Save and restore browser tabs in one click. Keep windows for later, organize projects, and back up your links locally.
+- Category: Workflow & Planning
+- Language: English
 
 ## Description
 
-Save tonight. Hop back tomorrow.
+TabBunny saves the web tabs in your current Chrome window so you can reopen their links later. Finish today’s research, study, or work and pick it up in a new window when you are ready.
 
-Save the web links in your current window with one click. Your bunny keeps them ready to reopen later; no project naming or tab selection is required.
+GET STARTED
+Open TabBunny and choose Save this window. Later, choose Resume latest window to reopen the saved links. Naming and tab selection are optional.
 
 FEATURES
 - Save this window with an automatic date label; current tabs stay open.

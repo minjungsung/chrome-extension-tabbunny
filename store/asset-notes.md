@@ -1,5 +1,5 @@
-# Store assets
+# Store artwork provenance
 
-Promotional artwork uses the extension's original vector and geometric mascot system. Overview images combine promotional typography with an actual isolated-browser UI capture. Capture content uses fictional example domains and local data. No user account information is included.
+Overview and marquee images combine explanatory typography with an actual isolated-browser UI capture using fictional example data. The capture comes from `store/popup-400x600.png`, generated from version 1.2.1 in a disposable browser profile. Promotional tiles use the existing mascot and geometric icon system. No personal account or workstation information is included.
 
-Required assets: RGB PNG overview at 1280×800 and small promotional tile at 440×280. Optional marquee: RGB PNG at 1400×560. Icons use RGBA PNG at 16, 32, 48, and 128 pixels.
+All uploaded artwork is RGB PNG at the requested store dimensions. Guided demo frames and completion acceleration disclosures remain in `store/demo/README.md`.

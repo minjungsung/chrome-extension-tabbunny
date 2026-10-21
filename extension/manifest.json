@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "TabBunny",
-  "version": "1.2.0",
-  "description": "Save this browser window without naming or sorting. Resume your latest saved links tomorrow with a friendly tab bunny.",
+  "name": "TabBunny: Save & Restore Tabs",
+  "version": "1.2.1",
+  "description": "Save and restore browser tabs in one click. Keep windows for later, organize projects, and back up your links locally.",
   "permissions": [
     "storage",
     "tabs"
@@ -16,5 +16,6 @@
     "32": "icons/icon32.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
-  }
+  },
+  "short_name": "TabBunny"
 }

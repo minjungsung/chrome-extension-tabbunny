@@ -21,6 +21,10 @@ Save the web links in your current window with one click. Your bunny keeps them 
 
 Stores up to 100 burrows with 300 web tabs each. HTTP and HTTPS pages only; internal browser pages, local files, and URLs with embedded credentials are skipped. TabBunny keeps current tabs open unless you explicitly choose to close them. Saved links do not preserve form edits, cookies, page scroll positions, or login state. Closing tabs can lose unsaved page input. At 100 collections, new quick saves retire the oldest quick snapshot; named projects are preserved. Renaming a quick snapshot makes it a named project.
 
+## Feedback
+
+The help page links to honest Chrome Web Store reviews. An optional, dismissible notice appears after repeated successful use across at least one week; preferences stay on this device.
+
 ## Development
 
 Load `extension/` unpacked in Chrome Developer mode. Run `npm test` and `npm run package`. There is no runtime dependency or build step.
